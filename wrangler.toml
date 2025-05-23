@@ -1,0 +1,12 @@
+name = "image-uploader"
+main = "index.js"
+compatibility_date = "2025-01-01"
+
+# 配置 R2 存储桶
+[[r2_buckets]]
+binding = "MY_BUCKET"
+bucket_name = "your-bucket-name"
+
+# 环境变量
+[vars]
+PUBLIC_URL = "https://your-bucket-public-url"
